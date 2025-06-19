@@ -22,14 +22,15 @@ const projects = [
     "src/assets/aleph-beauty.webp",
 },
   {
-    title: "Movie App",
-    desc: "Search & view movie details using TMDB API.",
-    link: "https://movie-app-f11m.vercel.app/",
-    code: "https://github.com/upender-kumar657/movie-app.git",
-    tech: ["React", "TMDB API", "CSS3"],
-    image:
-      "https://images.unsplash.com/photo-1489599511389-c4e1b4508b3a?w=500&h=300&fit=crop",
-  },
+  title: "Movie App",
+  desc: "A responsive movie search app built with React and TMDB API. Users can search movies and view details like title, poster, rating, and release date in a clean UI.",
+  link: "https://movie-app-f11m.vercel.app/",
+  code: "https://github.com/upender-kumar657/movie-app.git",
+  tech: ["React", "TMDB API", "CSS3"],
+  image: "https://images.unsplash.com/photo-1489599511389-c4e1b4508b3a?w=500&h=300&fit=crop",
+}
+
+
 ];
 
 const Project = () => {

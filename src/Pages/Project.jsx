@@ -25,9 +25,9 @@ const projects = [
   title: "Movie App",
   desc: "A responsive movie search app built with React and TMDB API. Users can search movies and view details like title, poster, rating, and release date in a clean UI.",
   link: "https://movie-app-f11m.vercel.app/",
-  code: "https://github.com/upender-kumar657/movie-app.git",
+  code: "https://i.pinimg.com/736x/6a/6b/bb/6a6bbbc2ebb32e262d2b0460f1efd44d.jpg",
   tech: ["React", "TMDB API", "CSS3"],
-  image: "https://images.unsplash.com/photo-1489599511389-c4e1b4508b3a?w=500&h=300&fit=crop",
+  image: "https://i.pinimg.com/736x/10/cb/3d/10cb3d903ca9224ee354322772546f67.jpg",
 }
 
 

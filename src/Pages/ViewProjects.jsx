@@ -36,7 +36,7 @@ const projects = [
   link: "https://movie-app-f11m.vercel.app/",
   code: "https://github.com/upender-kumar657/movie-app.git",
   tech: ["React", "TMDB API", "CSS3"],
-  image: "https://images.unsplash.com/photo-1489599511389-c4e1b4508b3a?w=500&h=300&fit=crop",
+  image: "https://i.pinimg.com/736x/10/cb/3d/10cb3d903ca9224ee354322772546f67.jpg",
 }
 
    ,

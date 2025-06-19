@@ -76,6 +76,6 @@ html {
 
 .connect-img{
     background-image: url("src/assets/contact-img.svg");
-  background-position: center;
-  background-size: cover;
+    background-position: center;
+    background-size: cover;
 }

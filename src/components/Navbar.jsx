@@ -13,7 +13,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="h-[5rem] flex items-center px-4 md:px-8 w-full fixed z-50 bg-transparent backdrop-blur-sm">
+    <div className="h-[5rem] flex items-center px-4 md:px-8 w-full  z-50 bg-transparent backdrop-blur-sm">
       {/* Logo Section */}
       <div className="w-full md:w-[30%]">
         <a href="#home" className="text-white text-xl font-bold">

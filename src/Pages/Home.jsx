@@ -8,15 +8,29 @@ import Project from "./Project"
 import ContactPage from "./ContactPage"
 import { motion } from "framer-motion"
 
+// 🖼️ Import image if not using public folder
+import profileImg from "../assets/header-img.svg"
+import bannerImg from "../assets/banner-bg.png"
+
 const Home = () => {
   return (
     <>
       {/* Hero Section */}
-      <div id="home" className="min-h-screen banner relative">
-        <Navbar />
-
+      <div
+        id="home"
+        className="min-h-screen relative"
+        style={{
+          backgroundImage: `url(${bannerImg})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        
+         <Navbar />
         {/* Main Content Container */}
         <div className="flex justify-center px-4 md:px-6 lg:px-10">
+         
           {/* About Section */}
           <div className="text-white w-full lg:w-[50%] mt-[6rem] lg:mt-[7.5rem] order-2 lg:order-1">
             <div className="max-w-full lg:max-w-none text-center lg:text-left">
@@ -27,9 +41,16 @@ const Home = () => {
           {/* Profile Image Section */}
           <div className="hidden lg:flex w-full lg:w-[50%] mt-[2rem] lg:mt-[7.5rem] justify-center items-center order-1 lg:order-2">
             <motion.div
-              className="profile-img h-[16rem] w-[18rem] sm:h-[18rem] sm:w-[20rem] md:h-[20rem] md:w-[22rem] lg:h-[22rem] lg:w-[25rem] mt-4 lg:mt-12"
+              className="rounded-full shadow-lg"
+              style={{
+                backgroundImage: `url(${profileImg})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                height: "22rem",
+                width: "25rem",
+              }}
               animate={{ y: [0, -20, 0] }}
-              transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
+              transition={{ duration: 2, repeat: Infinity }}
             />
           </div>
         </div>

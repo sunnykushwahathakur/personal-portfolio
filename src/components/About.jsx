@@ -18,7 +18,7 @@ const About = () => {
 
   return (
     <div>
-      <span className="text-white portRes border-[1px] border-[#644364] bg-gradient-to-r from-[#57224b] to-[#311e61] text-3xl inline-block px-4 py-2 mt-[6rem] font-bold rounded-lg shadow-md">
+      <span className="text-white portRes border-[1px] border-[#644364] bg-gradient-to-r from-[#57224b] to-[#311e61] text-3xl inline-block px-4 py-2 mt-[2rem] font-bold rounded-lg shadow-md">
         Welcome to my Portfolio
       </span>
 
@@ -31,7 +31,7 @@ const About = () => {
         {displayedText}
       </motion.h1>
 
-      <p className="text-white max-w-xl mt-4 text-lg leading-relaxed">
+      <p className="text-white max-w-xl mt-4 text-lg leading-relaxed skill-content">
         I build scalable, high-performance web apps using MongoDB, Express,
         React, and Node.js. Passionate about clean code, modern UI/UX, and
         growth.

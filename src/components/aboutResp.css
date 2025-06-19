@@ -1,4 +1,4 @@
-@media(min-width:321px) and (max-width:720px){
+@media(min-width:300px) and (max-width:720px){
     
  .portRes{
     margin-top: 1rem;
@@ -6,6 +6,9 @@
  }
  .conRes{
     display: none;
+ }
+ .skill-content{
+   visibility: hidden;
  }
     
 }

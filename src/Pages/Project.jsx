@@ -40,7 +40,7 @@ const Project = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-12 md:mb-16">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-white">
             Projects
           </h1>
           <p className="text-gray-400 max-w-4xl mx-auto text-sm sm:text-base md:text-lg leading-relaxed px-2 sm:px-4">

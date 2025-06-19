@@ -41,13 +41,12 @@ const Home = () => {
           {/* Profile Image Section */}
           <div className="hidden lg:flex w-full lg:w-[50%] mt-[2rem] lg:mt-[7.5rem] justify-center items-center order-1 lg:order-2">
             <motion.div
-              className="rounded-full shadow-lg"
+              className="profile-img h-[16rem] w-[18rem] sm:h-[18rem] sm:w-[20rem] md:h-[20rem] md:w-[22rem] lg:h-[22rem] lg:w-[25rem] mt-4 lg:mt-12"
               style={{
                 backgroundImage: `url(${profileImg})`,
                 backgroundSize: "cover",
-                backgroundPosition: "center",
-                height: "22rem",
-                width: "25rem",
+                backgroundRepeat:"no-repeat",
+              
               }}
               animate={{ y: [0, -20, 0] }}
               transition={{ duration: 2, repeat: Infinity }}

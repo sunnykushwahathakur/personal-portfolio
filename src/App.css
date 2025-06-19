@@ -9,7 +9,7 @@ html {
 }
 
 .banner {
-  background-image: url("C:/Users/upender kumar/Desktop/Portfolio/src/assets/banner-bg.png");
+  background-image: url("src/assets/banner-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   filter: brightness(1);
@@ -23,7 +23,7 @@ html {
 }
 
 .profile-img {
-  background-image: url("C:/Users/upender kumar/Desktop/Portfolio/src/assets/header-img.svg");
+  background-image: url("src/assets/header-img.svg");
   background-size: cover;
   background-repeat: no-repeat;
   filter: brightness(1);

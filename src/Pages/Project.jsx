@@ -2,7 +2,8 @@ import React from "react";
 import "../App.css";
 import ProjectCard from "../components/ProjectCard";
 import { Link } from "react-router-dom";
-import dashBoardImg from "../assets/dashBoardImg"
+import dashBoardImg from "../assets/dashboared.webp"
+import alephImg from "../assets/aleph-beauty.webp"
 
 const projects = [
 {
@@ -19,8 +20,7 @@ const projects = [
   link: "https://aleph-beauty-web.netlify.app/",
   code: "https://github.com/upender-kumar657/aleph-beauty.git",
   tech: ["HTTML", "CSS3","GSAP","JAVASCRIPT"],
-  image:
-    "src/assets/aleph-beauty.webp",
+  image:alephImg,
 },
   {
   title: "Movie App",

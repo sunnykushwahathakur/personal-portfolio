@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import ProjectCard from "../components/ProjectCard";
 import { Link } from "react-router-dom";
+import dashBoardImg from "../assets/dashBoardImg"
 
 const projects = [
 {
@@ -10,7 +11,7 @@ const projects = [
   link: "https://dashboardupender.netlify.app/",
   code: "https://github.com/upender-kumar657/Dashboard.git",
   tech: ["React", "Redux Toolkit", "JavaScript"],
-  image: "src/assets/dashboared.webp",
+  image: dashBoardImg,
 },
   {
   title: "Aleph Beauty",

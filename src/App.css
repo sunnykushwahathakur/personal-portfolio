@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+body{
+  background-color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.banner {
+  background-image: url("C:/Users/upender kumar/Desktop/Portfolio/src/assets/banner-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(1);
+}
+
+.social {
+  border: 2px solid white;
+  border-radius: 50%;
+  color: white;
+  padding: 6px;
+}
+
+.profile-img {
+  background-image: url("C:/Users/upender kumar/Desktop/Portfolio/src/assets/header-img.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(1);
+}
+
+.bg-skills-2 {
+  background-image: url("src/assets/meter3.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-skills-3 {
+  background-image: url("src/assets/meter2.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-skills-1 {
+  background-image: url("src/assets/meter1.svg");
+  background-position: center;
+  background-size: cover;
+}
+.skill-css {
+  overflow-x: scroll;
+  -webkit-scrollbar: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.arrow-1 {
+  background-image: url("src/assets/arrow1.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+.connect-img{
+    background-image: url("src/assets/contact-img.svg");
+  background-position: center;
+  background-size: cover;
+}

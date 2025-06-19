@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import emailjs from "@emailjs/browser"
+import connectImg from "../assets/contact-img.svg" // ✅ Image import
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -45,7 +46,7 @@ const ContactPage = () => {
         })
         setTimeout(() => setSubmitMessage(""), 3000)
       })
-      .catch((error) => {
+      .catch(() => {
         setSubmitMessage("Oops! Something went wrong. Please try again.")
         setIsSubmitting(false)
         setTimeout(() => setSubmitMessage(""), 3000)
@@ -57,12 +58,19 @@ const ContactPage = () => {
       id="contactus"
       className="min-h-screen pt-8 sm:pt-12 lg:pt-16 bg-gradient-to-r from-[#962f71] via-[#962f71] to-[#4829ac] relative overflow-hidden"
     >
-      {/* Container with responsive layout */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-full">
         <div className="flex flex-col lg:flex-row items-center justify-center min-h-[calc(100vh-2rem)] sm:min-h-[calc(100vh-3rem)] lg:min-h-[calc(100vh-4rem)] gap-8 lg:gap-12">
-          {/* Image Section - Hidden on mobile, visible on larger screens */}
+          
+          {/* ✅ Image Section */}
           <div className="hidden lg:flex lg:w-1/2 items-center justify-center">
-            <div className="w-full max-w-lg h-96 lg:h-[500px] connect-img rounded-lg"></div>
+            <div
+              className="w-full max-w-lg h-96 lg:h-[500px] rounded-lg"
+              style={{
+                backgroundImage: `url(${connectImg})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+            ></div>
           </div>
 
           {/* Form Section */}
@@ -157,10 +165,15 @@ const ContactPage = () => {
         </div>
       </div>
 
-      {/* Mobile Image Background - Optional decorative element */}
-      <div className="lg:hidden absolute inset-0 opacity-5 pointer-events-none">
-        <div className="w-full h-full connect-img"></div>
-      </div>
+      {/* ✅ Mobile Image Background */}
+      <div
+        className="lg:hidden absolute inset-0 opacity-5 pointer-events-none"
+        style={{
+          backgroundImage: `url(${connectImg})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      ></div>
     </div>
   )
 }

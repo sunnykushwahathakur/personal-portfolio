@@ -28,10 +28,10 @@ const Skills = () => {
     { label: "CSS", img: meter1Img },
     { label: "JAVASCRIPT", img: meter3Img },
     { label: "TAILWIND CSS", img: meter1Img  },
-    { label: "REACT JS", img: meter1Img  },
-    { label: "NODE JS", img: meter1Img  },
+    { label: "REACT JS", img: meter3Img  },
+    { label: "NODE JS", img: meter2Img  },
     { label: "EXPRESS JS", img: meter2Img  },
-    { label: "MONGODB", img: meter1Img },
+    { label: "MONGODB", img: meter2Img },
   ];
 
   return (

@@ -2,6 +2,15 @@ import React from 'react'
 import ProjectCard from '../components/ProjectCard';
 import { Navbar } from '../components/Navbar';
 
+import alephImg from "../assets/aleph-beauty.webp"
+import dashImg from "../assets/dashboared.webp"
+import appleImg from "../assets/trade-in-img.png"
+import todoImg from "../assets/todoImg.png"
+import dinoImg from "../assets/dino.webp"
+import horizonImg from "../assets/featured-image-c.webp"
+import lazarevImg from "../assets/rem.webp"
+
+
 
 const projects = [
   {
@@ -10,7 +19,7 @@ const projects = [
   link: "https://dashboardupender.netlify.app/",
   code: "https://github.com/upender-kumar657/Dashboard.git",
   tech: ["React", "Redux Toolkit", "JavaScript"],
-  image: "src/assets/dashboared.webp",
+  image: dashImg,
 },
    {
   title: "Aleph Beauty",
@@ -18,8 +27,7 @@ const projects = [
   link: "https://aleph-beauty-web.netlify.app/",
   code: "https://github.com/upender-kumar657/aleph-beauty.git",
   tech: ["HTTML", "CSS3","GSAP","JAVASCRIPT"],
-  image:
-    "src/assets/aleph-beauty.webp",
+  image:alephImg,
 },
   {
     title: "Apple Website UI",
@@ -27,8 +35,7 @@ const projects = [
     link: "https://phonesitemobile.netlify.app/",
     code: "https://github.com/upender-kumar657/apple-web.git",
     tech: ["GSAP", "Tailwind CSS", "React"],
-    image:
-      "src/assets/trade-in-img.png",
+    image:appleImg,
   },
   {
   title: "Movie App",
@@ -55,8 +62,7 @@ const projects = [
   link: "https://todo-app-2025-web.netlify.app/", 
   code: "https://github.com/upender-kumar657/level2-task3.git", 
   tech: ["HTML", "CSS", "JavaScript","react"],
-  image:
-    "src/assets/todoImg.png",
+  image:todoImg,
 },
   {
   title: "Legion Webpage",
@@ -64,8 +70,7 @@ const projects = [
   link: "https://legion-webpage.netlify.app/",
   code: "https://github.com/upender-kumar657/legion.git",
   tech: ["HTML", "CSS", "JavaScript"],
-  image:
-    "src/assets/dino.webp",
+  image:dinoImg,
 },
 {
   title: "Horizon Webpage",
@@ -73,8 +78,7 @@ const projects = [
   link: "https://horizon-web.netlify.app/",
   code: "https://github.com/upender-kumar657/horizon.git",
   tech: ["HTML", "CSS", "JavaScript","gsap"],
-  image:
-    "src/assets/featured-image-c.webp",
+  image:horizonImg,
 },
 {
   title: "Lazarev Webpage",
@@ -82,8 +86,7 @@ const projects = [
   link: "https://lazarev-webpage.netlify.app/",
   code: "https://github.com/upender-kumar657/lazarev.git",
   tech: ["HTML", "CSS", "JavaScript", "GSAP"],
-  image:
-    "src/assets/rem.webp",
+  image:lazarevImg,
 }
 
 ];

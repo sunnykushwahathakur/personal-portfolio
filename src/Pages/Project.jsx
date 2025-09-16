@@ -4,31 +4,34 @@ import ProjectCard from "../components/ProjectCard";
 import { Link } from "react-router-dom";
 import dashBoardImg from "../assets/dashboared.webp"
 import alephImg from "../assets/aleph-beauty.webp"
+import projimg1 from "../assets/projimg1.png"
+import projimg2 from "../assets/projimg2.png"
+import projimg3 from "../assets/projimg3.png"
 
 const projects = [
 {
-  title: "CSPM Executive Dashboard",
-  desc: "A responsive and interactive dashboard built with React and Redux Toolkit, featuring dynamic widget control, real-time updates, and smooth user experience.",
-  link: "https://dashboardupender.netlify.app/",
-  code: "https://github.com/upender-kumar657/Dashboard.git",
-  tech: ["React", "Redux Toolkit", "JavaScript"],
-  image: dashBoardImg,
+  title: "Sicdcup Family Golf Club",
+  desc: "A fully responsive website for Sidcup Family Golf Club built using HTML, CSS, and JavaScript, showcasing club facilities, pricing and contact information.",
+  link: "https://sunnykushwahathakur.github.io/golfclub/",
+  code: "https://github.com/sunnykushwahathakur/golfclub",
+  tech: ["HTML", "CSS", "JavaScript"],
+  image: projimg1,
 },
   {
-  title: "Aleph Beauty",
-  desc: "A beautifully designed responsive website for a beauty brand, featuring smooth animations, elegant layouts, and a focus on user experience. ",
-  link: "https://aleph-beauty-web.netlify.app/",
-  code: "https://github.com/upender-kumar657/aleph-beauty.git",
-  tech: ["HTTML", "CSS3","GSAP","JAVASCRIPT"],
-  image:alephImg,
+  title: "Obys-Agency",
+  desc: "A visually striking, fully responsive website for a Ukraine-based creative agency, built with HTML, CSS and JavaScript, featuring smooth animations.",
+  link: "https://sunnykushwahathakur.github.io/obys-agency/",
+  code: "https://github.com/sunnykushwahathakur/obys-agency",
+  tech: ["HTML", "CSS", "JavaScript", "Smooth Animation"],
+  image: projimg2,
 },
   {
-  title: "Movie App",
-  desc: "A responsive movie search app built with React and TMDB API. Users can search movies and view details like title, poster, rating, and release date in a clean UI.",
-  link: "https://movie-app-f11m.vercel.app/",
-  code: "https://i.pinimg.com/736x/6a/6b/bb/6a6bbbc2ebb32e262d2b0460f1efd44d.jpg",
-  tech: ["React", "TMDB API", "CSS3"],
-  image: "https://i.pinimg.com/736x/10/cb/3d/10cb3d903ca9224ee354322772546f67.jpg",
+  title: "Dribbble Clone",
+  desc: "A pixel-perfect Dribbble clone built with HTML and CSS, featuring user profiles, shot uploads, likes and comments to showcase creative work",
+  link: "https://sunnykushwahathakur.github.io/Dribbble-Clone/",
+  code: "https://github.com/sunnykushwahathakur/Dribbble-Clone",
+  tech: ["HTML", "CSS3"],
+  image: projimg3,
 }
 
 

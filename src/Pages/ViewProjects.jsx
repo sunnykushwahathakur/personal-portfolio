@@ -9,84 +9,119 @@ import todoImg from "../assets/todoImg.png"
 import dinoImg from "../assets/dino.webp"
 import horizonImg from "../assets/featured-image-c.webp"
 import lazarevImg from "../assets/rem.webp"
+import projimg1 from "../assets/projimg1.png"
+import projimg2 from "../assets/projimg2.png"
+import projimg3 from "../assets/projimg3.png"
+import projimg4 from "../assets/projimg4.png"
+import projimg5 from "../assets/projimg5.png"
+import projimg6 from "../assets/projimg6.png"
+import projimg7 from "../assets/projimg7.png"
+import projimg8 from "../assets/projimg8.png"
+import projimg9 from "../assets/projimg9.png"
+import projimg10 from "../assets/projimg10.png"
+import projimg11 from "../assets/projimg11.png"
+import projimg12 from "../assets/projimg12.png"
 
 
 
 const projects = [
   {
-  title: "CSPM Executive Dashboard",
-  desc: "A responsive and interactive dashboard built with React and Redux Toolkit, featuring dynamic widget control, real-time updates, and smooth user experience.",
-  link: "https://dashboardupender.netlify.app/",
-  code: "https://github.com/upender-kumar657/Dashboard.git",
-  tech: ["React", "Redux Toolkit", "JavaScript"],
-  image: dashImg,
-},
-   {
-  title: "Aleph Beauty",
-  desc: "A beautifully designed responsive website for a beauty brand, featuring smooth animations, elegant layouts, and a focus on user experience. ",
-  link: "https://aleph-beauty-web.netlify.app/",
-  code: "https://github.com/upender-kumar657/aleph-beauty.git",
-  tech: ["HTTML", "CSS3","GSAP","JAVASCRIPT"],
-  image:alephImg,
-},
-  {
-    title: "Apple Website UI",
-    desc: "Animated Apple website using GSAP & Tailwind.",
-    link: "https://phonesitemobile.netlify.app/",
-    code: "https://github.com/upender-kumar657/apple-web.git",
-    tech: ["GSAP", "Tailwind CSS", "React"],
-    image:appleImg,
+    title: "Sicdcup Family Golf Club",
+    desc: "A fully responsive website for Sidcup Family Golf Club built using HTML, CSS, and JavaScript, showcasing club facilities, pricing and contact information.",
+    link: "https://sunnykushwahathakur.github.io/golfclub/",
+    code: "https://github.com/sunnykushwahathakur/golfclub",
+    tech: ["HTML", "CSS", "JavaScript"],
+    image: projimg1,
+  },
+    {
+    title: "Obys-Agency",
+    desc: "A visually striking, fully responsive website for a Ukraine-based creative agency, built with HTML, CSS and JavaScript, featuring smooth animations.",
+    link: "https://sunnykushwahathakur.github.io/obys-agency/",
+    code: "https://github.com/sunnykushwahathakur/obys-agency",
+    tech: ["HTML", "CSS", "JavaScript", "Smooth Animation"],
+    image: projimg2,
+  },
+    {
+    title: "Dribbble Clone",
+    desc: "A pixel-perfect Dribbble clone built with HTML and CSS, featuring user profiles, shot uploads, likes and comments to showcase creative work",
+    link: "https://sunnykushwahathakur.github.io/Dribbble-Clone/",
+    code: "https://github.com/sunnykushwahathakur/Dribbble-Clone",
+    tech: ["HTML", "CSS3"],
+    image: projimg3,
   },
   {
-  title: "Movie App",
-  desc: "A responsive movie search app built with React and TMDB API. Users can search movies and view details like title, poster, rating, and release date in a clean UI.",
-  link: "https://movie-app-f11m.vercel.app/",
-  code: "https://github.com/upender-kumar657/movie-app.git",
-  tech: ["React", "TMDB API", "CSS3"],
-  image: "https://i.pinimg.com/736x/10/cb/3d/10cb3d903ca9224ee354322772546f67.jpg",
+  title: "GTA-VI Landing Page",
+  desc: "A fan-made GTA VI themed web app built with React, showcasing interactive maps, characters and missions in a slick, responsive UI.",
+  link: "https://sunnygta-vi.netlify.app/",
+  code: "https://github.com/sunnykushwahathakur/GTA-VI",
+  tech: ["React", "GSAP", "Tailwind CSS"],
+  image: projimg4,
 }
 
    ,
   {
-  title: "Calculator App",
-  desc: "A responsive calculator to perform basic arithmetic operations like addition, subtraction, multiplication, and division with a clean UI.",
-  link: "https://arithmaticmachine.netlify.app/",
-  code: "https://github.com/upender-kumar657/level2-task1",
+  title: "Premier Fashion",
+  desc: "An immersive fashion website designed to highlight premium apparel, seasonal trends, and style inspiration with a luxury feel.",
+  link: "https://sunnykushwahathakur.github.io/Premier/",
+  code: "https://github.com/sunnykushwahathakur/Premier",
+  tech: ["HTML", "CSS"],
+  image: projimg5,
+},
+{
+  title: "Digital Designer Portfolio",
+  desc: "A modern and responsive portfolio website for a digital designer, showcasing creative projects, case studies, and interactive visuals.",
+  link: "https://sunnykushwahathakur.github.io/Bent-Portfolio/", 
+  code: "https://github.com/sunnykushwahathakur/Bent-Portfolio", 
+  tech: ["HTML", "CSS"],
+  image: projimg6,
+},
+  {
+  title: "Zerodha Landing Page",
+  desc: "A modern and responsive landing page inspired by Zerodha, built with HTML and CSS to replicate its clean design and user-friendly layout.",
+  link: "https://sunnykushwahathakur.github.io/Zerodha-Landing-Page/",
+  code: "https://github.com/sunnykushwahathakur/Zerodha-Landing-Page",
+  tech: ["HTML", "CSS"],
+  image: projimg7,
+},
+{
+  title: "Text-To-Voice Converter",
+  desc: "A simple and efficient text-to-voice converter built with JavaScript, enabling users to convert written text into clear, natural-sounding voice.",
+  link: "https://sunnykushwahathakur.github.io/Text-To-Voice-Converter/",
+  code: "https://github.com/sunnykushwahathakur/Text-To-Voice-Converter",
   tech: ["HTML", "CSS", "JavaScript"],
-  image:
-    "https://i.pinimg.com/736x/9d/c1/49/9dc149f712a66e15418ad21e02a3cde0.jpg",
+  image: projimg8,
 },
 {
   title: "To-Do App",
-  desc: "A responsive and interactive to-do list application that lets users add, edit, delete, and mark tasks as completed. Built with a clean UI and smooth animations for a better user experience.",
-  link: "https://todo-app-2025-web.netlify.app/", 
-  code: "https://github.com/upender-kumar657/level2-task3.git", 
-  tech: ["HTML", "CSS", "JavaScript","react"],
-  image:todoImg,
-},
-  {
-  title: "Legion Webpage",
-  desc: "A modern and responsive landing page designed to showcase brand presence with a sleek layout, engaging visuals, and smooth user interactions. Built using HTML, CSS, and JavaScript.",
-  link: "https://legion-webpage.netlify.app/",
-  code: "https://github.com/upender-kumar657/legion.git",
+  desc: "Stay organized and boost your productivity with this sleek To-Do app. Add, edit, and delete tasks effortlessly. Mark tasks as completed and keep track of your daily goals with ease",
+  link: "https://sunnykushwahathakur.github.io/To-Do-List/",
+  code: "https://github.com/sunnykushwahathakur/To-Do-List",
   tech: ["HTML", "CSS", "JavaScript"],
-  image:dinoImg,
+  image: projimg9,
 },
 {
-  title: "Horizon Webpage",
-  desc: "A visually appealing and fully responsive landing page crafted to highlight digital presence with clean design, smooth scrolling effects, and interactive elements. Developed using HTML, CSS, and JavaScript.",
-  link: "https://horizon-web.netlify.app/",
-  code: "https://github.com/upender-kumar657/horizon.git",
-  tech: ["HTML", "CSS", "JavaScript","gsap"],
-  image:horizonImg,
+  title: "Weather App",
+  desc: "Stay informed about the weather with this user-friendly Weather App. Get real-time weather updates, forecasts, and more.",
+  link: "https://sunnykushwahathakur.github.io/Weather-App/",
+  code: "https://github.com/sunnykushwahathakur/Weather-App",
+  tech: ["HTML", "CSS"],
+  image: projimg10,
 },
 {
-  title: "Lazarev Webpage",
-  desc: "An interactive and fully responsive landing page inspired by modern design trends, enhanced with GSAP-powered animations for dynamic user engagement. Built using HTML, CSS, JavaScript, and GSAP.",
-  link: "https://lazarev-webpage.netlify.app/",
-  code: "https://github.com/upender-kumar657/lazarev.git",
-  tech: ["HTML", "CSS", "JavaScript", "GSAP"],
-  image:lazarevImg,
+  title: "Quiz App",
+  desc: "Test your knowledge with this interactive Quiz App. Answer questions, track your score, and challenge yourself to beat your best.",
+  link: "https://sunnykushwahathakur.github.io/Quiz-App/",
+  code: "https://github.com/sunnykushwahathakur/Quiz-App",
+  tech: ["HTML", "CSS", "JavaScript"],
+  image: projimg11,
+},
+{
+  title: "Random Password Generator",
+  desc: "Generate secure and random passwords with this easy-to-use password generator. Customize length and complexity to fit your needs.",
+  link: "https://sunnykushwahathakur.github.io/Random-Password-Generator/",
+  code: "https://github.com/sunnykushwahathakur/Random-Password-Generator",
+  tech: ["HTML", "CSS", "JavaScript"],
+  image: projimg12,
 }
 
 ];

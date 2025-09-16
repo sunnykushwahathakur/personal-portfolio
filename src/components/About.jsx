@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import "./aboutResp.css"
 
 const About = () => {
-  const fullText = "  Hi, I'm Upender Kumar   MERN Stack Developer";
+  const fullText = "  Hi, I'm Sunny MERN Stack Developer";
   const [displayedText, setDisplayedText] = useState("");
 
   useEffect(() => {

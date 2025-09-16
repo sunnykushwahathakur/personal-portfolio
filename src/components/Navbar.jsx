@@ -17,7 +17,7 @@ export const Navbar = () => {
       {/* Logo Section */}
       <div className="w-full md:w-[30%]">
         <a href="#home" className="text-white text-xl font-bold">
-          @upender.codes
+          sunnykushwahathakur@gmail.com
         </a>
       </div>
 
@@ -36,13 +36,13 @@ export const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-x-4">
-          <a href="https://github.com/upender-kumar657" className="text-white hover:text-gray-300 transition-colors">
+          <a href="https://github.com/sunnykushwahathakur" className="text-white hover:text-gray-300 transition-colors">
             <i className="ri-github-fill text-[18px]"></i>
           </a>
-          <a href="" className="text-white hover:text-gray-300 transition-colors">
+          <a href="mailto:sunnykushwahathakur@gmail.com" className="text-white hover:text-gray-300 transition-colors">
             <i className="ri-mail-line text-[18px]"></i>
           </a>
-          <a href="https://www.linkedin.com/in/upender-kumar-a5a725344" className="text-white hover:text-gray-300 transition-colors">
+          <a href="https://www.linkedin.com/in/sunny-kushwaha-thakur-901086200/" className="text-white hover:text-gray-300 transition-colors">
             <i className="ri-linkedin-line text-[18px]"></i>
           </a>
         </div>
@@ -99,13 +99,13 @@ export const Navbar = () => {
 
           {/* Mobile Social Links */}
           <div className="flex justify-center gap-x-6 py-4 border-t border-gray-700">
-            <a href="https://github.com/upender-kumar657" className="text-white hover:text-gray-300 transition-colors">
+            <a href="https://github.com/sunnykushwahathakur" className="text-white hover:text-gray-300 transition-colors">
               <i className="ri-github-fill text-xl"></i>
             </a>
-            <a href="" className="text-white hover:text-gray-300 transition-colors">
+            <a href="mailto:sunnykushwahathakur@gmail.com" className="text-white hover:text-gray-300 transition-colors">
               <i className="ri-mail-line text-xl"></i>
             </a>
-            <a href="https://www.linkedin.com/in/upender-kumar-a5a725344" className="text-white hover:text-gray-300 transition-colors">
+            <a href="https://www.linkedin.com/in/sunny-kushwaha-thakur-901086200/" className="text-white hover:text-gray-300 transition-colors">
               <i className="ri-linkedin-line text-xl"></i>
             </a>
           </div>

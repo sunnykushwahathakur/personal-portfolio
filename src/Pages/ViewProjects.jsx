@@ -1,14 +1,6 @@
 import React from 'react'
 import ProjectCard from '../components/ProjectCard';
 import { Navbar } from '../components/Navbar';
-
-import alephImg from "../assets/aleph-beauty.webp"
-import dashImg from "../assets/dashboared.webp"
-import appleImg from "../assets/trade-in-img.png"
-import todoImg from "../assets/todoImg.png"
-import dinoImg from "../assets/dino.webp"
-import horizonImg from "../assets/featured-image-c.webp"
-import lazarevImg from "../assets/rem.webp"
 import projimg1 from "../assets/projimg1.png"
 import projimg2 from "../assets/projimg2.png"
 import projimg3 from "../assets/projimg3.png"

@@ -2,8 +2,6 @@ import React from "react";
 import "../App.css";
 import ProjectCard from "../components/ProjectCard";
 import { Link } from "react-router-dom";
-import dashBoardImg from "../assets/dashboared.webp"
-import alephImg from "../assets/aleph-beauty.webp"
 import projimg1 from "../assets/projimg1.png"
 import projimg2 from "../assets/projimg2.png"
 import projimg3 from "../assets/projimg3.png"

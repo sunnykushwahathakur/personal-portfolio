@@ -2,6 +2,13 @@ import React, { useRef } from "react";
 import meter1Img from "../assets/meter1.svg";
 import meter2Img from "../assets/meter2.svg";
 import meter3Img from "../assets/meter3.svg";
+import htmlIcon from "../assets/htmlIcon.png";
+import cssIcon from "../assets/cssicon.png";
+import jsIcon from "../assets/jsicon.png";
+import reactIcon from "../assets/reactIcon.png";
+import tailwindcssicon from "../assets/tailwindcssicon.png";
+import githubicon from "../assets/githubicon.png";
+import nextjsicon from "../assets/nextjsicon.png";
 
 
 const Skills = () => {
@@ -24,14 +31,13 @@ const Skills = () => {
   };
 
   const skillsData = [
-    { label: "HTML", img: meter1Img },
-    { label: "CSS", img: meter1Img },
-    { label: "JAVASCRIPT", img: meter3Img },
-    { label: "TAILWIND CSS", img: meter1Img  },
-    { label: "REACT JS", img: meter3Img  },
-    { label: "NODE JS", img: meter2Img  },
-    { label: "EXPRESS JS", img: meter2Img  },
-    { label: "MONGODB", img: meter2Img },
+    { label: "HTML", img: htmlIcon },
+    { label: "CSS", img: cssIcon },
+    { label: "JAVASCRIPT", img: jsIcon },
+    { label: "REACT JS", img: reactIcon  },
+    { label: "TAILWIND CSS", img: tailwindcssicon  },
+    { label: "Git GitHub", img: githubicon  },
+    { label: "NEXT JS", img: nextjsicon  }
   ];
 
   return (

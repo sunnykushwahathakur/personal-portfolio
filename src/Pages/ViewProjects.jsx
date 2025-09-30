@@ -13,10 +13,19 @@ import projimg9 from "../assets/projimg9.png"
 import projimg10 from "../assets/projimg10.png"
 import projimg11 from "../assets/projimg11.png"
 import projimg12 from "../assets/projimg12.png"
+import projimg13 from "../assets/projimg13.png"
 
 
 
 const projects = [
+  {
+    title: "BioBank Landing Page",
+    desc: "A fully responsive website for BioBank built using HTML, CSS, showcasing its services, features and contact information with modern looks.",
+    link: "https://biobank-kappa.vercel.app/",
+    code: "https://github.com/sunnykushwahathakur/biobank",
+    tech: ["HTML", "CSS"],
+    image: projimg13,
+  },
   {
     title: "Sicdcup Family Golf Club",
     desc: "A fully responsive website for Sidcup Family Golf Club built using HTML, CSS, and JavaScript, showcasing club facilities, pricing and contact information.",

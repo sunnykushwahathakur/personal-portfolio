@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import meter1Img from "../assets/meter1.svg";
 import meter2Img from "../assets/meter2.svg";
 import meter3Img from "../assets/meter3.svg";
-import htmlIcon from "../assets/htmlIcon.png";
+import htmlIcon from "../assets/htmlicon.png";
 import cssIcon from "../assets/cssicon.png";
 import jsIcon from "../assets/jsicon.png";
 import reactIcon from "../assets/reactIcon.png";
